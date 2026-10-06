@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ramdev Mobile | Shahapur</title>
+<style>
+:root{--bg:#07070a;--card:#111217;--text:#fff;--muted:#b8b8c2;--accent:#ff4d00;--accent2:#ffb000}
+*{box-sizing:border-box}body{margin:0;font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.5}
+a{text-decoration:none;color:inherit}.nav{position:sticky;top:0;z-index:5;background:#09090cee;backdrop-filter:blur(12px);border-bottom:1px solid #25252b}
+.navin{max-width:1100px;margin:auto;padding:16px 20px;display:flex;align-items:center;justify-content:space-between}.logo{font-size:22px;font-weight:900;letter-spacing:.5px}.logo span{color:var(--accent)}
+.navlinks{display:flex;gap:20px;font-size:14px}.navlinks a:hover{color:#ff8a00}
+.hero{max-width:1100px;margin:auto;padding:80px 20px 55px;display:grid;grid-template-columns:1.2fr .8fr;gap:35px;align-items:center}
+.badge{display:inline-block;padding:7px 12px;border:1px solid #3a3a42;border-radius:99px;color:#ffd28a;font-size:13px;background:#15151a}
+h1{font-size:clamp(42px,7vw,78px);line-height:.98;margin:18px 0}.gradient{background:linear-gradient(90deg,#fff,#ff7a00);-webkit-background-clip:text;color:transparent}
+.hero p{color:var(--muted);font-size:18px;max-width:650px}.buttons{display:flex;gap:12px;flex-wrap:wrap;margin-top:25px}.btn{padding:13px 19px;border-radius:12px;font-weight:800;display:inline-block}.primary{background:linear-gradient(90deg,var(--accent),var(--accent2));color:#111}.secondary{border:1px solid #383841;background:#15151b}
+.heroCard{background:radial-gradient(circle at 30% 20%,#3b1808,#121218 60%);border:1px solid #37313a;border-radius:28px;padding:30px;min-height:300px;display:flex;flex-direction:column;justify-content:center;box-shadow:0 20px 60px #0008}
+.phone{font-size:110px;text-align:center}.heroCard h3{text-align:center;font-size:25px;margin:0}.heroCard p{text-align:center;color:#bbb}
+section{max-width:1100px;margin:auto;padding:60px 20px}.sectionTitle{font-size:34px;margin:0 0 8px}.sub{color:var(--muted);margin-top:0}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:25px}.card{background:var(--card);border:1px solid #26262d;border-radius:18px;padding:22px}.icon{font-size:34px}.card h3{margin:12px 0 6px}.card p{color:var(--muted);margin:0}
+.offer{margin-top:25px;background:linear-gradient(120deg,#241004,#161014);border:1px solid #5a3019;border-radius:22px;padding:30px;display:flex;justify-content:space-between;gap:20px;align-items:center}.offer h3{font-size:30px;margin:0 0 5px}.offer p{color:#ddd;margin:0}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:18px}.contact .card strong{display:block;margin-bottom:5px}.contact .card a{color:#ff9a3d}
+footer{border-top:1px solid #25252b;margin-top:30px;padding:25px 20px;color:#999;text-align:center;font-size:14px}
+@media(max-width:750px){.navlinks{display:none}.hero{grid-template-columns:1fr;padding-top:55px}.grid,.contact{grid-template-columns:1fr}.offer{flex-direction:column;align-items:flex-start}h1{font-size:50px}}
+</style>
+</head>
+<body>
+<nav class="nav"><div class="navin"><div class="logo">RAMDEV <span>MOBILE</span></div><div class="navlinks"><a href="#products">Products</a><a href="#offers">Offers</a><a href="#contact">Contact</a></div></div></nav>
+
+<header class="hero">
+<div>
+<span class="badge">📍 Shahapur • Kasara</span>
+<h1>Your Local <span class="gradient">Mobile Store.</span></h1>
+<p>Smartphones, accessories and exciting offers — with friendly service at Ramdev Mobile, Shahapur.</p>
+<div class="buttons">
+<a class="btn primary" href="tel:7756905678">📞 Call Store</a>
+<a class="btn secondary" href="https://www.instagram.com/ramdev_mobile_shahapur/" target="_blank">📸 Instagram</a>
+</div>
+</div>
+<div class="heroCard"><div class="phone">📱</div><h3>Latest Mobiles • Best Deals</h3><p>Come visit us and check the latest phones & accessories.</p></div>
+</header>
+
+<section id="products">
+<h2 class="sectionTitle">What We Offer</h2><p class="sub">Everything you need for your smartphone.</p>
+<div class="grid">
+<div class="card"><div class="icon">📱</div><h3>Smartphones</h3><p>Explore the latest smartphones across popular brands and price ranges.</p></div>
+<div class="card"><div class="icon">🎧</div><h3>Accessories</h3><p>Chargers, cables, earphones, cases, screen protection and more.</p></div>
+<div class="card"><div class="icon">🔊</div><h3>Speakers</h3><p>Big speakers and powerful sound options for home and celebrations.</p></div>
+</div>
+</section>
+
+<section id="offers">
+<h2 class="sectionTitle">🔥 Big Offers</h2><p class="sub">Follow our Instagram for new offers, festival deals and store updates.</p>
+<div class="offer"><div><h3>Don’t Miss The Next Deal!</h3><p>Follow <b>@ramdev_mobile_shahapur</b> for the latest offers.</p></div><a class="btn primary" href="https://www.instagram.com/ramdev_mobile_shahapur/" target="_blank">Follow Instagram →</a></div>
+</section>
+
+<section id="contact">
+<h2 class="sectionTitle">Visit Ramdev Mobile</h2><p class="sub">We’re ready to help you choose the right device.</p>
+<div class="contact">
+<div class="card"><strong>📍 Address</strong><span>Near Tejas Plywood, Panditnaka, Shahapur</span></div>
+<div class="card"><strong>📞 Contact</strong><a href="tel:7756905678">Dealer Ramesh: 7756905678</a><br><a href="tel:7208332410">Arjun: 7208332410</a></div>
+</div>
+</section>
+
+<footer>© 2026 Ramdev Mobile • Shahapur • All rights reserved.</footer>
+</body>
+</html>
